@@ -1,0 +1,136 @@
+/*Global*/
+
+body section
+{
+	padding-top: 95px; /*pour que le menu ne se supperpose pas au contenu*/
+}
+/*Menu*/
+
+#menu_fixe
+{
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 90px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	z-index: 4;
+}
+#menu_fixe p
+{
+	margin-top: 2px;
+	margin-bottom: 0px;
+}#logo
+{
+	width: 180px;
+}
+header ul
+{
+	width: 300px;;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+header li:hover, header li:focus
+{
+	border-top: 0px solid #3399cc;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+header li a
+{
+	font-size: 15px;
+}
+
+/*Slider*/
+
+#sliderBackground
+{
+	position: absolute;
+	left: 0%;
+	top: 15px;
+	padding-bottom: 2px;
+	opacity: 0;
+}
+#sectionSlider
+{
+	height: 250px;
+	background-image: url("images/slider/bg3.jpg");
+}
+#titre
+{
+	width: 100%;
+	top: 41%;
+	left: 0%;
+	text-align: center;
+}
+h1
+{
+	font-size: 24px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#titre p
+{
+	font-size: 12px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#infos
+{
+	padding: 8px 30px 8px 30px;
+
+}
+.demiCercle
+{
+	opacity: 0;
+}
+.traitSliderBleu
+{
+	bottom: 0px;
+	background-image: linear-gradient(to right, #3399cc 25%, rgba(0,0,0,0.2) 25%); /*tous les 2 en 10% pour avoir les deux couleurs au même point d'arrêt*/
+}
+
+/*Nos Services*/
+
+#sectionNosServices
+{
+	padding-top: 60px;
+}
+h2
+{
+	font-size: 28px;
+}
+.separateur
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*Nos Projets*/
+
+#sectionNosProjets
+{
+	padding-top: 60px;
+}
+#sectionNosProjets ul
+{
+	margin-top: 7%;
+	margin-bottom: 8%;
+	width: 90%;
+	font-size: 12px;
+}
+#projets
+{
+	width: 100%;
+}
+figure
+{
+	width: 80%;
+	margin-bottom: 20px;
+}
+figcaption
+{
+	opacity: 1;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}

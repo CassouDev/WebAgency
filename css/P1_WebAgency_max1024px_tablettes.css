@@ -1,0 +1,96 @@
+/*Menu*/
+
+#menu_fixe p
+{
+	margin-top: 10px; /*pour centrer le logo verticalement*/
+}
+#logo
+{
+	width: 150px; /*taille du logo*/
+}
+header ul
+{
+	width: 300px;
+}
+header li:focus
+{
+	font-weight: bold;
+	border-top: 2px solid #3399cc;
+	padding-top: 22px;
+	margin-top: -24px;
+}
+
+/*Slider*/
+
+#titre
+{
+	top: 40%;
+}
+h1
+{
+	font-size: 22px;
+}
+#infos
+{
+	padding: 6px 8px 6px 8px;
+	font-size: 12px;
+}
+
+/*Nos Services*/
+
+.sousTitre
+{
+	width: 50%;
+}
+article
+{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+aside img
+{
+	position: initial; /*annule le position: aboslute; */
+	left: 0px;
+	width: 70%;
+	margin-left: 0px;
+}
+#services ul
+{
+	width: 75%;
+	margin: auto;
+}
+.iconCentre
+{
+	font-size: 22px;
+}
+
+/*Nos Projets*/
+
+#sectionNosProjets ul
+{
+	width: 50%;
+}
+figure
+{
+	width: 46%;
+}
+figcaption
+{
+	opacity: 1;
+}
+
+/*Contact*/
+
+#ContactInfo
+{
+	width: 30%;
+}
+.caseFormulaire
+{
+	font-size: 11px;
+}
+#boutonSend
+{
+	padding: 4px;
+}

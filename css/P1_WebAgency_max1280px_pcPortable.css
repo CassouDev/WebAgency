@@ -1,0 +1,98 @@
+/*Global*/
+
+p
+{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+/*Menu*/
+
+#menu_fixe p
+{
+	margin-top: 8px; /*pour centrer le logo verticalement*/
+}
+#logo
+{
+	width: 175px; /*taille du logo*/
+}
+header ul
+{
+	width: 350px;
+}
+header li a
+{
+	font-size: 14px;
+}
+
+/*Slider*/
+
+h1
+{
+	font-size: 24px;
+}
+#titre p 
+{
+	font-size: 15px;
+}
+#infos
+{
+	font-size: 14px;
+}
+.demiCercle
+{
+	font-size: 12px;
+}
+
+/*Nos Services*/
+
+h2
+{
+	font-size: 28px;
+}
+.separateur
+{
+	width: 105px;
+}
+.traitSeparateur
+{
+	width: 40px;
+}
+article
+{
+	width: 80%;
+}
+h3 /*fonctionne aussi pour le h3 de ContactInfo*/
+{
+	font-size: 14px;
+}
+
+/*Nos Projets*/
+
+#sectionNosProjets ul
+{
+	width: 35%;
+	font-size: 13px;
+	border-bottom: 3px solid #e5e5e5;
+	border-top: none;
+}
+#projets
+{
+	width: 85%;
+}
+
+/*Contact*/
+
+#ContactInfo
+{
+	top: 13%;
+}
+#ContactInfo p
+{
+	font-size: 12px;
+	line-height: 20px;
+}
+.caseFormulaire
+{
+	font-size: 12px;
+}

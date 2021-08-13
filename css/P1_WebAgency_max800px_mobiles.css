@@ -1,0 +1,169 @@
+/*Global*/
+
+p
+{
+	font-size: 13px;
+	line-height: 22px;
+}
+
+/*Menu*/
+
+#menu_fixe
+{
+	height: 50px;
+	padding-top: 1px;
+	padding-bottom: 4px;
+}
+#logo
+{
+	width: 140px;
+}
+header ul
+{
+	width: 225px;
+}
+header li a
+{
+	font-size: 12px;
+}
+header li:hover, header li:focus
+{
+	font-weight: bold;
+	border-top: 2px solid #3399cc;
+	padding-top: 14px;
+	margin-top: -16px;
+}
+
+/*Slider*/
+
+#titre
+{
+	width: 48%;
+	top: 35%;
+	left: 6%;
+}
+h1
+{
+	font-size: 20px;
+}
+#titre p
+{
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.demiCercle
+{
+	font-size: 11px;
+}
+
+/*Nos Services*/
+
+#sectionNosServices
+{
+	padding-top: 20px; /*Réglage de la position du menu*/
+}
+.sousTitre
+{
+	width: 70%;
+}
+h2
+{
+	font-size: 32px;
+}
+.separateur
+{
+	width: 130px;
+}
+.traitSeparateur
+{
+	width: 50px;
+}
+article
+{
+	flex-direction: column;
+	width: 90%;
+}
+aside img
+{
+	width: 70%;
+}
+.metiers
+{
+	flex-direction: column;
+}
+.icon
+{
+	margin-bottom: 3%;
+}
+.iconCentre
+{
+	font-size: 20px;
+}
+.metierDescription
+{
+	text-align: center;
+	margin-left: 0;
+	font-size: 14px;
+}
+.metierDescription h3
+{
+	margin-top: 1%;
+	margin-bottom: 3%;
+	font-size: 18px;
+}
+
+/*Nos Projets*/
+
+#sectionNosProjets
+{
+	padding-top: 24px; /*Réglage de la position du menu*/
+}
+#sectionNosProjets ul
+{
+	width: 65%;
+	margin-bottom: 6%;
+}
+figure
+{
+    width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+figcaption 
+{
+    opacity: 1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.fa-eye
+{
+	padding: 10px;
+	left: 46%;
+	top: -20px;
+}
+
+/*Section Contact*/
+
+iframe
+{
+	height: 52%;
+}
+#ContactInfo
+{
+	width: 97%;
+	left: 0; 
+	top: 50%;
+	background-color: #edf5f9;
+	text-align: center;
+}
+#ContactInfo h3
+{
+	margin-top: 4%;
+}
+.caseFormulaire
+{
+	width: 70%;
+	font-size: 13px;
+}
